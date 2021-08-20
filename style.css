@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family: "Segoe UI", Roboto, Helvetica, Arial;
     font-size: 14px;
 }
 
@@ -45,6 +45,7 @@ body {
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
+
 }
 
 .instagram-logo {
@@ -64,7 +65,12 @@ body {
 
 .input-login-senha input {
     margin: 0 40px 6px;
-    padding: 9px 0 7px 8px;
+    padding: 9px 0px 7px 8px;
+    width: 100%;
+    background-color: #fafafa;
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    outline: 0;
 }
 
 .group {
@@ -79,5 +85,67 @@ body {
 }
 
 group:nth-child(1) {
+    height: 19em;
+}
 
+.instagram-logo {
+    height: 3em;
+}
+
+.instagram-entrar {
+    color: white;
+    font-weight: 600;
+    line-height: 1.125em;
+    font-size: 0.975em;
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(0,149,246,.3);
+    border-radius: 3px;
+    padding: 5px 9px;
+    width: 100%;
+
+}
+
+.entrar-com {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.entrar-com-facebook {
+    color: #385185;
+    font-weight: 600;
+    font-size: 1.125em;
+}
+
+.seguro-barras {
+    display: flex;
+    margin: 10px 40px 18px;
+    flex-direction: row;
+    
+}
+
+.entrar-ou {
+    display: flex;
+    margin: 0 18px;
+}
+
+.pseudo-after {
+    content: "";
+    display: flex;
+    flex-grow: 1;
+    width: 100px;
+	height: 1px;
+	background: #dbdbdb;
+	margin: 8px auto;
+}
+
+.pseudo-before {
+    content: "";
+	display: flex;
+    width: 100px;
+	height: 1px;
+	background: #dbdbdb;
+	margin: 8px auto;
 }

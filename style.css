@@ -135,7 +135,7 @@ group:nth-child(1) {
     content: "";
     display: flex;
     flex-grow: 1;
-    width: 100px;
+    width: 95px;
 	height: 1px;
 	background: #dbdbdb;
 	margin: 8px auto;
@@ -144,7 +144,7 @@ group:nth-child(1) {
 .pseudo-before {
     content: "";
 	display: flex;
-    width: 100px;
+    width: 95px;
 	height: 1px;
 	background: #dbdbdb;
 	margin: 8px auto;
